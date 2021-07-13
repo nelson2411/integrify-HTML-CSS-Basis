@@ -31,6 +31,7 @@ header{
     color: white;
     text-align: center;
    margin-top: 30vh;
+   font-weight: 400;
 }
 
 .header-text h1{
@@ -73,9 +74,14 @@ header{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.397) ;
+    background-color:rgba(0, 0, 0, 0.45) ;
     color: white;
     font-weight:700 ;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .brand-title{
@@ -182,6 +188,7 @@ section h2{
 .boxes p{
     margin-bottom: 2.5rem;
     padding: 10px 4px;
+    font-weight: 400;
 }
 
 .button-box{
@@ -262,6 +269,7 @@ footer{
     justify-content: flex-end;
     color: white;
     margin-right: 20px;
+    font-weight: 400;
 }
 
 .social-container .fab:hover{
