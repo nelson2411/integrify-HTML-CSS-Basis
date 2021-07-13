@@ -30,8 +30,8 @@ header{
 .header-text{
     color: white;
     text-align: center;
-   margin-top: 30vh;
    font-weight: 400;
+   padding-top: 13%;
 }
 
 .header-text h1{
@@ -71,16 +71,17 @@ header{
 /* Navbar styles */
 .navbar{
     display: flex;
-    position: relative;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
     background-color:rgba(0, 0, 0, 0.45) ;
     color: white;
     font-weight:700 ;
+    width: 100%;
 }
 .sticky {
 	position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
 	top: 0;
 }
 
@@ -314,12 +315,6 @@ footer{
     }
 
     .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer{
         display: flex;
         flex-direction: column;
         align-items: center;
