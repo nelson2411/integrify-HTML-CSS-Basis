@@ -297,7 +297,7 @@ footer{
     .header-text{
         color: white;
         text-align: center;
-        margin-top: 20vh;
+        padding-top: 11rem;
     }
     .header-text h1{
         font-weight: 900;
